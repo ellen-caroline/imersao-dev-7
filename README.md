@@ -17,9 +17,38 @@ Nesta aula, foram explorados conceitos essenciais de programação, como variáv
 
 #### Desafios propostos!
 - Adicionar outras moedas para converter;
+    ```javascript
+    var nomeUsuario = prompt("Olá! Digite o seu nome: ");
+  var moedaEscolhida = prompt(
+    nomeUsuario + ", escolha a moeda para conversão (Digite 'Euro' ou 'Dólar'):"
+  );
+  
+  if (moedaEscolhida.toLowerCase() === "euro") {
+    var cotacaoEuro = 6.25;
+    var valorReal = prompt(
+      "Digite o valor em reais (R$) que deseja converter em euros (€): "
+    );
+    var valorConvertido = valorReal / cotacaoEuro;
+    valorConvertido = valorConvertido.toFixed(2);
+    alert(nomeUsuario + ", o valor em euros é € " + valorConvertido);
+  } else if (moedaEscolhida.toLowerCase() === "dólar") {
+    var cotacaoDolar = 5.32;
+    var valorReal = prompt(
+      "Digite o valor em reais (R$) que deseja converter em dólares ($): "
+    );
+    var valorConvertido = valorReal / cotacaoDolar;
+    valorConvertido = valorConvertido.toFixed(2);
+    alert(nomeUsuario + ", o valor em dólar é $ " + valorConvertido);
+  } else {
+    alert("Opção de moeda inválida.");
+  }
+  ```
 - Criar um conversor de quilômetros para anos-luz e descobrir o tempo necessário para viajar de uma estrela para outra;
 - Desenvolver um conversor de temperaturas entre Fahrenheit, Kelvin e Celsius;
 - Inserir uma linha ao projeto para exibir o valor em Bitcoin.
+    ```javascript
+  a
+    ```
 
 ##
 
