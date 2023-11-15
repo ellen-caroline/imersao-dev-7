@@ -11,7 +11,7 @@
 ### 📁 Descrição do projeto
    Esse projeto foi desenvolvido durante a [`Imersão Dev_7ª Edição`](https://www.alura.com.br/imersao-dados-ia), disponibilizada pela [`Alura`](https://www.alura.com.br/). Seu foco principal foi capacitar os participantes em HTML, CSS e, primordialmente, JavaScript, visando o desenvolvimento de habilidades em lógica de programação.
 ##
-### 🐚 Aula 1: Mergulhe em JavaScript com um Conversor de Moedas
+### 🫧 Aula 1: Mergulhe em JavaScript com um Conversor de Moedas
 #### Introdução
 Nesta aula, foram explorados conceitos essenciais de programação, como variáveis, operadores e interação com o console. Atividades incluíram a criação de uma conta no CodePen, compreensão das diferenças entre HTML, CSS e JavaScript, e aplicação da função toFixed() para fixar casas decimais.
 
