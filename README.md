@@ -1,4 +1,4 @@
-<img width=100% alt="blue_waves_head" src="https://capsule-render.vercel.app/api?type=waving&color=3c5fb9&height=285&section=header&text=Imersão%20Dev&fontSize=90&animation=fadeIn&fontAlignY=35&desc=7ª%20Edição%20-%20Alura%20&descAlignY=51&descAlign=70"/>
+<img width=100% alt="blue_waves_head" src="https://capsule-render.vercel.app/api?type=waving&color=436CBD&height=285&section=header&text=Imersão%20Dev&fontSize=90&animation=fadeIn&fontAlignY=35&desc=7ª%20Edição%20-%20Alura%20&descAlignY=51&descAlign=70"/>
 
 <div align="center">
   <img align="right" width="83" alt="javascript-badge" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" target="_blank">
@@ -216,4 +216,4 @@ Nesta aula, foram explorados conceitos essenciais de programação, como variáv
 ##
 
 
-<img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=3c5fb9&height=120&section=footer"/>
+<img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=#436CBD&height=120&section=footer"/>
