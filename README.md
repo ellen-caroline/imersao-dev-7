@@ -16,42 +16,84 @@
 Nesta aula, foram explorados conceitos essenciais de programação, como variáveis, operadores e interação com o console. Atividades incluíram a criação de uma conta no CodePen, compreensão das diferenças entre HTML, CSS e JavaScript, e aplicação da função toFixed() para fixar casas decimais.
 
 #### Desafios propostos!
-- Adicionar outras moedas para converter;
-    ```javascript
-    var nomeUsuario = prompt("Olá! Digite o seu nome: ");
-  var moedaEscolhida = prompt(
-    nomeUsuario + ", escolha a moeda para conversão (Digite 'Euro' ou 'Dólar'):"
-  );
-  
-  if (moedaEscolhida.toLowerCase() === "euro") {
-    var cotacaoEuro = 6.25;
-    var valorReal = prompt(
-      "Digite o valor em reais (R$) que deseja converter em euros (€): "
-    );
-    var valorConvertido = valorReal / cotacaoEuro;
-    valorConvertido = valorConvertido.toFixed(2);
-    alert(nomeUsuario + ", o valor em euros é € " + valorConvertido);
-  } else if (moedaEscolhida.toLowerCase() === "dólar") {
-    var cotacaoDolar = 5.32;
-    var valorReal = prompt(
-      "Digite o valor em reais (R$) que deseja converter em dólares ($): "
-    );
-    var valorConvertido = valorReal / cotacaoDolar;
-    valorConvertido = valorConvertido.toFixed(2);
-    alert(nomeUsuario + ", o valor em dólar é $ " + valorConvertido);
-  } else {
-    alert("Opção de moeda inválida.");
-  }
-  ```
-- Criar um conversor de quilômetros para anos-luz e descobrir o tempo necessário para viajar de uma estrela para outra;
-- Desenvolver um conversor de temperaturas entre Fahrenheit, Kelvin e Celsius;
-- Inserir uma linha ao projeto para exibir o valor em Bitcoin.
-    ```javascript
-  a
-    ```
+<details>
+  <summary>Adicionar outras moedas para converter;</summary>
+    
+    function converterMoeda() {
+      while (true) {
+        let moedaEscolhida = prompt(
+          nomeUsuario +
+            ", escolha a moeda para conversão, digitando o número correspondente à moeda:\n 1. Dolar\n 2. Euro\n 3. Peso Argentino\n 4. Bitcoin"
+        );
+    
+        switch (moedaEscolhida) {
+          case "1":
+            let cotacaoDolar = 5.32;
+            var valorReal = prompt(
+              "Digite o valor, em reais (R$), que deseja converter em dólares ($): "
+            );
+            var valorConvertido = valorReal / cotacaoDolar;
+            valorConvertido = valorConvertido.toFixed(2);
+            alert(nomeUsuario + ", o valor em dólar é $ " + valorConvertido);
+            break;
+    
+          case "2":
+            let cotacaoEuro = 6.25;
+            var valorReal = prompt(
+              "Digite o valor, em reais (R$), que deseja converter em euros (€): "
+            );
+            var valorConvertido = valorReal / cotacaoEuro;
+            valorConvertido = valorConvertido.toFixed(2);
+            alert(nomeUsuario + ", o valor em euros é € " + valorConvertido);
+            break;
+    
+          case "3":
+            let cotacaoPeso = 0.014;
+            var valorReal = prompt(
+              "Digite o valor, em reais (R$), que deseja converter em pesos argentinos (€): "
+            );
+            var valorConvertido = valorReal / cotacaoPeso;
+            alert(
+              nomeUsuario + ", o valor em pesos argentinos é € " + valorConvertido
+            );
+            break;
+    
+          case "4":
+            let cotacaoBitcoin = 181267.26;
+            var valorReal = prompt(
+              "Digite o valor, em reais (R$), que deseja converter em bitcoins (₿): "
+            );
+            var valorConvertido = valorReal / cotacaoBitcoin;
+            alert(nomeUsuario + ", o valor em bitcoins é ₿ " + valorConvertido);
+            break;
+    
+          default:
+            alert("Opção de moeda inválida.");
+            break;
+        }
+    
+        let continuar = prompt(
+          "Deseja continuar convertendo moedas? Digite o número correspondente:\n1. Sim\n2. Não"
+        );
+        if (continuar === "2") {
+          break;
+        }
+      }
+    }
+      
+</details>
 
-##
+<details>
+  <summary>Criar um conversor de quilômetros para anos-luz e descobrir o tempo necessário para viajar de uma estrela para outra;</summary>
+</details>
 
-### 👩‍💻 Resultados
+<details>
+  <summary>Desenvolver um conversor de temperaturas entre Fahrenheit, Kelvin e Celsius;</summary>
+</details>
+
+<details>
+  <summary>Inserir uma linha ao projeto para exibir o valor em Bitcoin.</summary>
+</details>
+
 
 <img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=3c5fb9&height=120&section=footer"/>
