@@ -230,6 +230,8 @@ Na aula, é desenvolvido um jogo de adivinhação em JavaScript, onde o programa
   <summary>Aprofunde-se e aprenda a diferença entre os operadores == e ===;</summary>
 </details>
 
+##
+
 ### 📱 Hashtags
 #imersaodev #alura
 
