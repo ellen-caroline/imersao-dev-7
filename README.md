@@ -10,7 +10,9 @@
   
 ### 📁 Descrição do projeto
    Esse projeto foi desenvolvido durante a [`Imersão Dev_7ª Edição`](https://www.alura.com.br/imersao-dados-ia), disponibilizada pela [`Alura`](https://www.alura.com.br/). Seu foco principal foi capacitar os participantes em HTML, CSS e, primordialmente, JavaScript, visando o desenvolvimento de habilidades em lógica de programação.
+   
 ##
+
 ### 🫧 Aula 1: Mergulhe em JavaScript com um Conversor de Moedas
 #### Introdução
 Nesta aula, foram explorados conceitos essenciais de programação, como variáveis, operadores e interação com o console. Atividades incluíram a criação de uma conta no CodePen, compreensão das diferenças entre HTML, CSS e JavaScript, e aplicação da função toFixed() para fixar casas decimais.
@@ -290,6 +292,43 @@ Na aula, é desenvolvido um jogo de adivinhação em JavaScript, onde o programa
 </details>
 
 ##
+
+### 🫧 Aula 3: Explore Estruturas de Dados Criando um Catálogo de Filmes
+#### Introdução
+Na aula, são abordadas estruturas de dados e listas em JavaScript, com foco na criação, manipulação e exibição de elementos. Os tópicos incluem: criação e manipulação de arrays, utilização de métodos como push e length, seleção de elementos por índice, aplicação de loops for para iteração, e integração da lógica do programa para exibição na tela.
+
+#### Desafios propostos!
+<details>
+  <summary>Escolher o seu tema preferido para adaptar ao nosso código, ou seja, ao invés de filmes, pode ser uma lista de animes, HQs, cursos, capas de jogos, entre outros;</summary>
+
+
+  
+</details>
+
+<details>
+  <summary>Tentar implementar outras versões da estrutura de repetição que fizemos com for, como por exemplo com foreach ou while;</summary>
+
+    while
+    /*var i = 0;
+    while (i < listaFilmes.length) {
+      document.write('<img src=' + listaFilmes[i] + '>');
+      i++;
+  
+</details>
+
+<details>
+  <summary>Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente;</summary>
+
+  
+  
+</details>
+
+<details>
+  <summary>Criar um campo e um botão para adicionar a imagem diretamente na tela, em vez de adicionar no código;</summary>
+
+
+  
+</details>
 
 ### 📱 Hashtags
 #imersaodev #alura
