@@ -222,12 +222,71 @@ Na aula, é desenvolvido um jogo de adivinhação em JavaScript, onde o programa
 #### Desafios propostos!
 <details>
   <summary>Adicionar um limite de tentativas para que a pessoa possa adivinhar o número e, ao final, exiba a resposta correta;</summary>
+
+      var numeroSecreto = parseInt(Math.random()*1001);
+      var contador = 10;
+      var tentativasAnteriores = [];
+    
+      //enquanto o número de tentativas for válido
+      while (contador > 0){
+        var chute = prompt("Digite um número entre 0 e 1000: ");
+        //se o número for igual ao número secreto
+        //verifica se o chute é válido
+        if (chute >= 1 && chute <= 1000) {
+          //verifica se o número já foi chutado anteriormente
+          if (tentativasAnteriores.includes(chute)) {
+            alert(nomeUsuario+", você já tentou o número " + chute + ". Escolha outro.");
+          } else {
+            tentativasAnteriores.push(chute);
+      
+            //verifica se o número é igual ao número secreto
+            if (chute == numeroSecreto) {
+              alert("Parabéns "+nomeUsuario+"! :) \nVocê acertou o número secreto " + numeroSecreto + " em " + (11 - contador) + " tentativas.");
+              break;
+            } else {
+              //mensagem de dica
+              if (chute > numeroSecreto) {
+                alert("Poxa, foi quase "+nomeUsuario+"! Dica: O número secreto é menor que o seu chute ;)\n\nVocê possui " + (contador - 1) + " tentativas.\nNúmeros anteriores: " + tentativasAnteriores.join(", "));
+              } else {
+                alert("Poxa, foi quase "+nomeUsuario+"! Dica: O número secreto é maior que o seu chute ;)\n\nVocê possui " + (contador - 1) + " tentativas.\nNúmeros anteriores: " + tentativasAnteriores.join(", "));
+              }
+            }
+          }
+        } else {
+          alert("Digite um número válido, entre 1 e 1000, por favor.");
+        }
+        
+        contador--;
+      }
+        
+      if (contador === 0) {
+        alert("Suas tentativas acabaram. O número secreto era " + numeroSecreto + ".");
+      }
+  
 </details>
 <details>
   <summary>Quando a pessoa errar, forneça uma dica informando se o número chutado é maior ou menor que o número secreto;</summary>
+
+            if (chute == numeroSecreto) {
+              alert("Parabéns "+nomeUsuario+"! :) \nVocê acertou o número secreto " + numeroSecreto + " em " + (11 - contador) + " tentativas.");
+              break;
+            } else {
+              //mensagem de dica
+              if (chute > numeroSecreto) {
+                alert("Poxa, foi quase "+nomeUsuario+"! Dica: O número secreto é menor que o seu chute ;)\n\nVocê possui " + (contador - 1) + " tentativas.\nNúmeros anteriores: " + tentativasAnteriores.join(", "));
+              } else {
+                alert("Poxa, foi quase "+nomeUsuario+"! Dica: O número secreto é maior que o seu chute ;)\n\nVocê possui " + (contador - 1) + " tentativas.\nNúmeros anteriores: " + tentativasAnteriores.join(", "));
+              }
+  
 </details>
 <details>
   <summary>Aprofunde-se e aprenda a diferença entre os operadores == e ===;</summary>
+  
+  - O operador == compara os valores e realiza a coerção de tipo se necessário. Por exemplo, 1 == '1' retornará true porque o JavaScript converte a string ‘1’ em um número antes de fazer a comparação1.
+
+  - O operador ===, por outro lado, compara tanto o valor quanto o tipo, sem realizar a coerção de tipo. Isso significa que 1 === '1' retornará false porque um é número e o outro é uma string1.
+  <br>
+  Portanto, a principal diferença entre == e === é que == compara apenas os valores, enquanto === compara os valores e os tipos.
 </details>
 
 ##
