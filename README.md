@@ -368,9 +368,21 @@ Na aula, são abordadas estruturas de dados e listas em JavaScript, com foco na 
 ### 🔍 Visualização do projeto
 - Clone este repositório em sua máquina local.
 - Navegue até a pasta da aula desejada.
-- Abra o arquivo index.html no seu navegador preferido.
+- Abra o arquivo `index.html` no seu navegador preferido.
 <br>
-✦ Você também pode visualizar pelo (CodePen)[https://codepen.io/collection/waQxoZ]
+✦ Você também pode visualizar pela [coleção no CodePen](https://codepen.io/collection/waQxoZ)
+
+##
+
+### 🌐 Links úteis
+- [Como colocar toggle no GitHub](https://gist.github.com/Ashton-W/864d09d71f7cb8e5b47ebaac02b98455)
+- [CodePen](https://codepen.io/)
+- [Operadores Booleanos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)
+- [JavaScript segundo a documentação](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Função Math.random()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [Operadores em JavaScript](https://www.alura.com.br/artigos/operadores-matematicos-em-javascript)
+- [Diferença entre == e ===](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality)
+- [Arrays em JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ##
 
