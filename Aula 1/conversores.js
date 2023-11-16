@@ -1,7 +1,7 @@
 var nomeUsuario;
 
 do {
-  nomeUsuario = prompt("Olá! Digite o seu nome: ");
+  nomeUsuario = prompt("Olá! Por favor, informe seu nome: ");
 
   if (!nomeUsuario) {
     alert("Por favor, digite um nome válido.");
