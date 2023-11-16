@@ -370,7 +370,8 @@ Na aula, são abordadas estruturas de dados e listas em JavaScript, com foco na 
 - Navegue até a pasta da aula desejada.
 - Abra o arquivo `index.html` no seu navegador preferido.
 <br>
-✦ Você também pode visualizar pela [coleção no CodePen](https://codepen.io/collection/waQxoZ)
+✦ Você também pode visualizar pela
+[coleção no CodePen](https://codepen.io/collection/waQxoZ)
 
 ##
 
