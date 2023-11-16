@@ -215,6 +215,21 @@ Nesta aula, foram explorados conceitos essenciais de programação, como variáv
 
 ##
 
+### 🫧 Aula 2: Desenvolva suas Habilidades com um Jogo de Adivinhação
+#### Introdução
+Na aula, é desenvolvido um jogo de adivinhação em JavaScript, onde o programa escolhe um número aleatório e o objetivo é adivinhar. Instrui-se o uso o fork de um projeto base para personalização. A função Math.random() é introduzida, e explora-se a replicação do projeto em diversas linguagens com IA generativa, como ChatGPT e Bard.
+
+#### Desafios propostos!
+<details>
+  <summary>Adicionar um limite de tentativas para que a pessoa possa adivinhar o número e, ao final, exiba a resposta correta;</summary>
+</details>
+<details>
+  <summary>Quando a pessoa errar, forneça uma dica informando se o número chutado é maior ou menor que o número secreto;</summary>
+</details>
+<details>
+  <summary>Aprofunde-se e aprenda a diferença entre os operadores == e ===;</summary>
+</details>
+
 ### 📱 Hashtags
 #imersaodev #alura
 
