@@ -9,7 +9,7 @@
 ##
   
 ### 📁 Descrição do projeto
-   Esse projeto foi desenvolvido durante a [`Imersão Dev_7ª Edição`](https://www.alura.com.br/imersao-dados-ia), disponibilizada pela [`Alura`](https://www.alura.com.br/). Seu foco principal foi capacitar os participantes em HTML, CSS e, primordialmente, JavaScript, visando o desenvolvimento de habilidades em lógica de programação.
+   Esse projeto foi desenvolvido durante a [`Imersão Dev_7ª Edição`](https://www.alura.com.br/imersao-dados-ia), disponibilizada pela [`Alura`](https://www.alura.com.br/). Seu foco principal foi capacitar os participantes, em HTML, CSS e, primordialmente, JavaScript, visando o desenvolvimento de habilidades em lógica de programação. O repositório abrange soluções para os desafios propostos nas cinco aulas da imersão.
    
 ##
 
@@ -344,6 +344,33 @@ Na aula, são abordadas estruturas de dados e listas em JavaScript, com foco na 
 
   
 </details>
+
+##
+
+### 📂 Estrutura do Repositório:
+#### Aula 1 - Conversores:
+- `index.html`: Página principal para os conversores de moeda, unidade de temperatura e anos-luz.
+- `style.css`: Estilos CSS para a página.
+- `conversor.js`: Implementação em JavaScript dos conversores.
+
+#### Aula 2 - Número Oculto (Jogo de Adivinhação):
+- `index.html`: Página principal para o jogo de adivinhação.
+- `style.css`: Estilos CSS para a página.
+- `jogo.js`: Implementação em JavaScript do jogo de adivinhação.
+
+#### Aulas 3 e 4 - EllenFlix (Plataforma de Visualização de Filmes):
+- `index.html`: Página principal para a plataforma EllenFlix.
+- `style.css`: Estilos CSS para a página.
+- `EllenFlix.js`: Implementação em JavaScript da plataforma de visualização de filmes.
+
+##
+
+### 🔍 Visualização do projeto
+- Clone este repositório em sua máquina local.
+- Navegue até a pasta da aula desejada.
+- Abra o arquivo index.html no seu navegador preferido.
+<br>
+✦ Você também pode visualizar pelo (CodePen)[https://codepen.io/collection/waQxoZ]
 
 ##
 
