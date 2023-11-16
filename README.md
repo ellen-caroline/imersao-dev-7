@@ -216,4 +216,4 @@ Nesta aula, foram explorados conceitos essenciais de programação, como variáv
 ##
 
 
-<img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=#436CBD&height=120&section=footer"/>
+<img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=436CBD&height=120&section=footer"/>
