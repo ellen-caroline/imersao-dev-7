@@ -317,7 +317,6 @@ Na aula, são abordadas estruturas de dados e listas em JavaScript, com foco na 
   <summary>Escolher o seu tema preferido para adaptar ao nosso código, ou seja, ao invés de filmes, pode ser uma lista de animes, HQs, cursos, capas de jogos, entre outros;</summary>
 
 
-  
 </details>
 
 <details>
@@ -335,14 +334,34 @@ Na aula, são abordadas estruturas de dados e listas em JavaScript, com foco na 
   <summary>Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente;</summary>
 
   
-  
 </details>
 
 <details>
   <summary>Criar um campo e um botão para adicionar a imagem diretamente na tela, em vez de adicionar no código;</summary>
 
-
   
+</details>
+
+##
+
+### 🫧 Aula 4: Mergulhe em JavaScript com um Conversor de Moedas
+#### Introdução
+Nesta aula, a sintaxe e criação de funções em JavaScript foram exploradas, com sua integração ao HTML exibido na tela. A execução das funções foi condicionada ao clique em um botão, e o JavaScript foi utilizado para acessar e obter valores do HTML através de getElementById() e .value. A passagem de informações por meio de parâmetros foi abordada, assim como o uso de .endsWith() para verificar terminações em texto. Adicionalmente, um exemplo de reatribuição de variável para "limpar" campos foi demonstrado, utilizando "".
+
+#### Desafios propostos!
+<details>
+  <summary>Criar um botão para remover um filme na tela;</summary>
+
+</details>
+
+<details>
+  <summary>Adicionar não apenas a imagem do filme, mas também o nome por meio de outro input;</summary>
+
+</details>
+
+<details>
+  <summary>Armazenar todos os filmes adicionados em uma lista/array e percorrê-la sempre que desejar imprimir ou remover um filme;</summary>
+
 </details>
 
 ##
