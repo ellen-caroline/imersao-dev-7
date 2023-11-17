@@ -358,7 +358,7 @@ Na aula, são abordadas estruturas de dados e listas em JavaScript, com foco na 
 - `style.css`: Estilos CSS para a página.
 - `jogo.js`: Implementação em JavaScript do jogo de adivinhação.
 
-#### Aulas 3 e 4 - EllenFlix (Plataforma de Visualização de Filmes):
+#### Aulas 3 e 4 - EllenFlix (Plataforma de Visualização de Mídias):
 - `index.html`: Página principal para a plataforma EllenFlix.
 - `style.css`: Estilos CSS para a página.
 - `EllenFlix.js`: Implementação em JavaScript da plataforma de visualização de filmes.
