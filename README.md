@@ -377,10 +377,10 @@ Nesta aula, a sintaxe e criação de funções em JavaScript foram exploradas, c
 - `style.css`: Estilos CSS para a página.
 - `jogo.js`: Implementação em JavaScript do jogo de adivinhação.
 
-#### Aulas 3 e 4 - EllenFlix (Plataforma de Visualização de Mídias):
-- `index.html`: Página principal para a plataforma EllenFlix.
+#### Aulas 3 e 4 - MyLoves (Plataforma de Exibição de Mídias Favoritas):
+- `index.html`: Página principal para a plataforma MyLoves.
 - `style.css`: Estilos CSS para a página.
-- `EllenFlix.js`: Implementação em JavaScript da plataforma de visualização de filmes.
+- `MyLoves.js`: Implementação em JavaScript da plataforma de exibição das mídias favoritas do usuário (filmes, séries, músicas, livros...).
 
 ##
 
