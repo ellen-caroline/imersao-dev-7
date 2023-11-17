@@ -392,6 +392,7 @@ Nesta aula, a sintaxe e criação de funções em JavaScript foram exploradas, c
 ✦ Você também pode visualizar pela
 [coleção no CodePen](https://codepen.io/collection/waQxoZ)
 
+
 ##
 
 ### 🌐 Links úteis
