@@ -331,14 +331,17 @@ Na aula, são abordadas estruturas de dados e listas em JavaScript, com foco na 
 </details>
 
 <details>
-  <summary>Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente;</summary>
-
   
+    <summary>Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente;</summary>
+    function filmeJaAdicionado(nome) {
+    return listaFilmes.some(filme => filme.nomeFilme === nome);
+    }
+    
 </details>
 
 <details>
   <summary>Criar um campo e um botão para adicionar a imagem diretamente na tela, em vez de adicionar no código;</summary>
-
+    
   
 </details>
 
