@@ -1,5 +1,5 @@
-<div align="center" width="200px">
-    <img src="https://giphy.com/gifs/work-heres-y5OffROvBod0s" alt="cat-coding">
+<div align="center" width=70%>
+    <img src="https://github.com/ellen-caroline/imersao-dev-7/assets/106993186/f5be5dbe-0a24-4a55-83ff-38d0b7a82909" alt="cat-coding">
 </div>
 
 ## Conversor
@@ -8,17 +8,16 @@
 
 Uma aplicação interativa que permite converter diferentes grandezas relacionadas a moedas, temperatura e distâncias cósmicas.
 
-### 🌟 Capturas de tela
+### 🌟 Visualização do projeto
 <div align="center">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="https://github.com/ellen-caroline/imersao-dev-7/assets/106993186/ec521237-51eb-4844-a416-e1cdf330bda7" alt="" width="800px">
 </div>
 
 ### 🛠️ Funcionalidades
 
-- 💲 **Conversão de Moeda:** Converta valores entre diferentes moedas, como Dólar, Euro, Peso Argentino e Bitcoin.
-- 🌡️ **Conversão de Temperatura:** Converta temperaturas entre as escalas Fahrenheit, Celsius e Kelvin.
-- 🌌 **Conversão de Distância:** Converta distâncias entre quilômetros e metros para Anos-Luz.
+💲 **Conversão de Moeda:** Converta valores entre diferentes moedas, como Dólar, Euro, Peso Argentino e Bitcoin. <br>
+🌡️ **Conversão de Temperatura:** Converta temperaturas entre as escalas Fahrenheit, Celsius e Kelvin. <br>
+🌌 **Conversão de Distância:** Converta distâncias entre quilômetros e metros para Anos-Luz.
 
 ### 📃 Como Usar
 
@@ -35,5 +34,6 @@ Uma aplicação interativa que permite converter diferentes grandezas relacionad
 - [Tutorial 4: Como fazer o efeito girando com HTML e CSS](https://www.youtube.com/watch?v=X_x8ZayZMbM)
 - [Tutorial 5: Como fazer uma moeda animada com HTML e CSS](https://www.youtube.com/watch?v=wK9buFmBK6w)
 - [Tutorial 6: Como fazer uma estrela com HTML e CSS](https://www.youtube.com/shorts/keb2RIofv4s)
+- [Função linear-gradient()](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)
 
 <img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=436CBD&height=120&section=footer"/>
