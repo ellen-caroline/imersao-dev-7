@@ -28,12 +28,15 @@ Uma aplicação interativa que permite converter diferentes grandezas relacionad
 
 ### 📚 Links úteis
 
+- [Função linear-gradient()](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)
+- [Fonte Figtree](https://fonts.google.com/specimen/Figtree)
+- [Fonte Montagu Slab](https://fonts.google.com/specimen/Montagu+Slab)
 - [Tutorial 1: Como fazer um termômetro animado com HTML e CSS](https://www.youtube.com/watch?v=vLjftILwL7Q)
 - [Tutorial 2: Como fazer um termômetro animado com HTML e CSS](https://www.youtube.com/watch?v=EFmOlEigs4U)
 - [Tutorial 3: Como fazer uma moeda com HTML e CSS](https://www.youtube.com/watch?v=eL8a5-7CN-8)
 - [Tutorial 4: Como fazer o efeito girando com HTML e CSS](https://www.youtube.com/watch?v=X_x8ZayZMbM)
 - [Tutorial 5: Como fazer uma moeda animada com HTML e CSS](https://www.youtube.com/watch?v=wK9buFmBK6w)
 - [Tutorial 6: Como fazer uma estrela com HTML e CSS](https://www.youtube.com/shorts/keb2RIofv4s)
-- [Função linear-gradient()](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)
+
 
 <img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=436CBD&height=120&section=footer"/>
