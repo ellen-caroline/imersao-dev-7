@@ -1,39 +1,454 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Figtree', 'Montagu Slab', sans-serif;
+  margin: 0;
+  padding: 0; 
+}
+
 body {
-    font-family: "Karla", monospace;
-    text-align: center;
-    background-color: #43444d;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 100vh;
+  text-align: center;
+  background: linear-gradient(to bottom, #43444d, #1a1a1f);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: auto;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+header {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: FFFFFF;
+  font-weight: 600;
+  padding: 0%;
+  text-decoration: none;
+}
+
+.link_git,
+.link_projetos {
+  color: #FFFFFF;
+  font-family: Figtree;
+  font-weight: 400;
+  font-size: 1.3cap;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.imersao-logo {
+  width: 100px;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.page-logo {
+  width: 100px;
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}
+
+h1, 
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  vertical-align: top;
+  margin-left: 300px;
+  margin-right: 320px;
+  gap: 20px
+}
+
+.container-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.parte1 {
+  align-items: center;
+  white-space: nowrap;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.legenda {
+  margin-top: 10px;
+  text-align: center;
+  color: #e3e3e3;
+}
+
+/* termômetro */
+.logo {
+  cursor: pointer;
+  position: relative;
+  height: 225px;
+  width: 50px;
+}
+
+.logo:hover {
+  box-shadow: -10 -10 30px #FAB8DB;
+}
+
+.barra {
+  z-index: 1;
+  height: 190px;
+  width: 30px;
+  background-color: #fefffe;
+  border-radius: 25px 25px 0 0;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circulo {
+  height: 50px;
+  width: 50px;
+  background-color: #fefffe;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+}
+
+.circulo::after {
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FAB8DB;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.barra::after {
+  content: "";
+  display: block;
+  height: 140px;
+  width: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #FAB8DB;
+
+  animation: anim 20s linear infinite;
+}
+
+@keyframes anim{
+  0% {
+    height: 100%;
   }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
+  70% {
+    height: 5%;
   }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
+  100% {
+    height: 100%;
   }
-  
-  .page-logo {
-    width: 150px;
+}
+/*fim do termômetro*/
+
+.tituloT {
+  bottom: 5px;
+}
+
+/* moeda */
+.moeda {
+  cursor: pointer;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+#moeda div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  background-size: contain;
+  position: absolute;
+}
+
+.frente {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  background-size: contain;
+  position: absolute;
+  border: 20px solid #9C9FAE;
+  background-color: #D1D4E7;
+  color: #818494;
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+.animate-frente {
+  animation: flipHeads 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flipHeads {
+  from {
+    transform: rotateY(0deg);
+  } to {
+    transform: rotate(1800deg);
   }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
+}
+
+.verso {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  background-size: contain;
+  position: absolute;
+  border: 20px solid #9C9FAE;
+  background-color: #D1D4E7;
+  color: #818494;
+  font-size: 6rem;
+  font-weight: 900;
+
+  transform: rotateY(-180deg);
+}
+
+.animate-verso {
+  animation: flipTails 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flipTails {
+  from {
+    transform: rotateY(0deg);
+  } to {
+    transform: rotateY(1620deg);
   }
-  
-  body > img {
-    margin: 0 10px;
-  }
-  
-  img {
-    max-height: 250px;
-  }
-  
+}
+
+.moeda:hover {
+  transform: rotateY(360deg);
+  transition: unset;
+}
+/*fim moeda*/
+
+.legenda-universo {
+  position: absolute;
+  bottom: -190px; 
+  color: #e3e3e3;
+}
+
+/*estrelas*/
+.parte2 {
+  display: inline-block;
+  flex-direction: column;
+  margin-top: 200px;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.universo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.estrela1 {
+  cursor: pointer;
+  position: relative;
+  height: 0;
+  width: 0;
+  border-bottom: 100px solid #B597EA;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+
+.estrela1::after {
+  cursor: pointer;
+  position: absolute;
+  border-top: 100px solid #D1D4E7;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  content: "";
+  top: 30px;
+  left: -60px;
+}
+
+.luz {
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #c4b4e0;
+  border-radius: 40%;
+  top: 42px;
+  left: -20px;
+  rotate: 45deg;
+}
+
+.luz:hover {
+  z-index: 2;
+  box-shadow: 0 0 #FFFFFF;
+}
+
+.estrela2 {
+  cursor: pointer;
+  position: relative;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #FAB8DB;
+  transform: rotate(35deg);
+}
+
+.estrela2::before {
+  cursor: pointer;
+  position: absolute;
+  content: "";
+  top: -45px;
+  left: -65px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 80px solid #FAB8DB;
+  transform: rotate(-35deg);
+}
+
+.estrela2::after {
+  cursor: pointer;
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: -105px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #FAB8DB;
+  transform: rotate(-70deg);
+}
+
+.estrela2 .centro {
+  z-index: 2;
+  cursor: pointer;
+  position: absolute;
+  border-left: 90 solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 75px solid #D1D4E7;
+  top: 20px;
+  left: -35px;
+  transform: rotate(105deg);
+}
+
+.estrela2 .centro::before {
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  content: "";
+  border-left: 15px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 45px solid #D1D4E7;
+  top: 39px;
+  left: -32px;
+  transform: rotate(-105deg);
+}
+
+.estrela2 .centro::after {
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  content: "";
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
+  border-bottom: 45px solid #D1D4E7;
+  top: 30px;
+  left: -35px;
+  transform: rotate(-70deg);
+}
+/*fim estrelas*/
+
+.copyright {
+  align-items: center;
+  color: #000000;
+  font-family: Figtree;
+  font-weight: 400;
+  font-size: 1.3cap;
+  padding: 10px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #43444D;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  font-size: small;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  margin-top: 20px;
+}
+
+footer div {
+  color: #FFFFFF;
+}
+
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
