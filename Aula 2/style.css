@@ -1,41 +1,214 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Figtree', sans-serif;
+  margin: 0;
+  padding: 0; 
+}
+
 body {
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
-    background-color: #000000;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 100vh;
+  text-align: center;
+  background: linear-gradient(to bottom, #43444d, #1a1a1f);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: auto;
+  margin: 0;
+  background-attachment: fixed;
+  min-height: 100vh;
+  align-items: center;
+}
+
+header {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 14px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: FFFFFF;
+  font-weight: 600;
+  padding: 0%;
+  text-decoration: none;
+}
+
+.link_git,
+.link_projetos {
+  color: #FFFFFF;
+  font-family: Figtree;
+  font-weight: 400;
+  font-size: 1.3cap;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.imersao-logo {
+  width: 100px;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+
+.page-logo {
+  width: 50px;
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}
+
+.quadro {
+  position: absolute;
+  background-color: #1a1a1f;
+  border-radius: 5px;
+  align-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  max-width: 800px;
+  max-height: 1000px;
+  color: #FEFEFE;
+  font-weight: 300;
+  padding: 20px;
+  top: 80%;
+  left: 33%;
+  margin-top: 100px;
+}
+
+h1, 
+h2 {
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.title-jogo {
+  z-index: 1;
+  align-content: center;
+  left: 40.5%;
+}
+
+.texto, 
+.p {
+  position: relative;
+  font-family: 'Figtree';
+  font-weight: 300;
+  color: #FEFEFE;
+}
+
+.nomeUsuario {
+  position: relative;
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FEFEFE;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, 0.338);
+  color: white;
+  width: 100px;
+  font-family: sans-serif;
+  border-radius: 100px;
+  border: solid linear-gradient;
+  height: 50px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.botao:hover {
+  color: #1a1a1f;
+  background: #FEFEFE;
+  box-shadow: 0 0 10px #fefefea0,
+  0 0 20px #b597eac0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.numeros {
+  position: relative;
+  display: flex;
+}
+
+.numeros span {
+  z-index: -1;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FEFEFE;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow:
+  0 0 50px #D1D4E7,
+  0 0 100px #D1D4E7;
+  animation: animate 10s linear infinite;
+  animation-duration: calc(300s / var(--i));
+}
+
+.numeros span:nth-child(even) {
+  z-index: -1;
+  box-shadow:
+  0 0 50px #B597EA,
+  0 0 100px #B597EA;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(100vh) scale(0);
+  } 100% {
+    transform: translateY(-10vh) scale(1);
   }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  
-  .page-logo {
-    width: 180px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  body > img {
-    margin: 0 10px;
-  }
-  
-  img {
-    max-height: 350px;
-  }
-  
+}
+
+.copyright {
+  align-items: center;
+  color: #000000;
+  font-family: Figtree;
+  font-weight: 400;
+  font-size: 1.3cap;
+  padding: 10px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #43444D;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  font-size: small;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  margin-top: 20px;
+}
+
+footer div {
+  color: #FFFFFF;
+}
+
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
