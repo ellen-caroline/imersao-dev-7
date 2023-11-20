@@ -8,30 +8,26 @@ do {
   }
 } while (!nomeUsuario);
 
-let continuar = true;
-while (continuar) {
-  alert("Seja muito bem vindo, " + nomeUsuario + "!");
-  let converter = prompt(
-    "O que você deseja converter? \n1. Moedas (Reais para Dólares, Euros, Pesos argentinos ou Bitcoins) \n2. Distancia (Metros ou Quilometros em Anos-Luz) \n3. Temperatura (Celsius para Fahrenheit ou Kelvin) \n\nou digite qualquer outra tecla para sair.\n"
-  );
-  switch (converter) {
-    case "1":
-      converterMoeda();
-      break;
-    case "2":
-      converterDistancia();
-      break;
-    case "3":
-      converterTemperatura();
-      break;
-    default:
-      alert("Você está saindo do conversor. Obrigada pela visita :)");
-      continuar = false;
-      break;
+// atribuir o valor do nomeUsuario ao elemento com o ID "nomeUsuario"
+var elementoNomeUsuario = document.getElementById("nomeUsuario");
+elementoNomeUsuario.textContent = nomeUsuario;
+
+document.getElementById("moeda").addEventListener("click", function() {
+  converterMoeda();
+});
+
+document.getElementById("logo").addEventListener("click", function() {
+  converterTemperatura();
+});
+
+document.getElementById("universo").addEventListener("click", function(event) {
+  if (event.target.id === "universo") {
+    converterDistancia();
   }
-}
+});
 
 function converterMoeda() {
+  alert("Seja muito bem vindo, " + nomeUsuario + "!");
   while (true) {
     let moedaEscolhida = prompt(
       nomeUsuario +
@@ -94,6 +90,7 @@ function converterMoeda() {
 }
 
 function converterDistancia() {
+  alert("Seja muito bem vindo, " + nomeUsuario + "!");
   while (true) {
     let uMedidaEscolhida = prompt(
       nomeUsuario +
@@ -160,6 +157,7 @@ function converterDistancia() {
 }
 
 function converterTemperatura() {
+  alert("Seja muito bem vindo, " + nomeUsuario + "!");
   while (true) {
     let escalaEscolhida = prompt(
       nomeUsuario +
