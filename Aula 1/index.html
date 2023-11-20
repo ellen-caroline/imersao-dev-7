@@ -1,8 +1,79 @@
-<div class="container">
-    <h1 class="page-title">
-      Conversores
-    </h1>
-    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
-</div>
-<div class="circle">
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Conversor</title>
+
+  <!-- Cascading Style Sheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,500&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500&family=Montagu+Slab:opsz,wght@16..144,500&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="imersao-logo" alt="">
+    </a>
+    <a href="index.html">
+      <img src="\assets\logo_conversor.png" class="page-logo" alt="a">
+    </a>
+    <nav>
+      <a class="link_projetos" href="https://codepen.io/ellen-caroline-the-looper/pen/MWLENRo">Conversor</a>
+      <a class="link_projetos" href="https://codepen.io/ellen-caroline-the-looper/pen/wvNPoqo">Número Oculto</a>
+      <a class="link_projetos" href="https://codepen.io/ellen-caroline-the-looper/pen/poGdeRJ">MyLoves</a>
+    </nav>
+  </header>
+  <main>
+    <h1><br>Olá! <span id="nomeUsuario" class="nomeUsuario"></span></h1>
+    <p>O que você deseja converter?<br><br><br></p>
+    <div id="parte1" class="container-wrapper">
+      <section class="container">
+        <div class="logo" id="logo">
+          <div class="barra"></div>
+          <div class="circulo"></div>
+        </div>
+        <p class="legenda">Termômetro</p>
+      </section>
+      <section class="container">
+        <div class="moeda" id="moeda">
+          <div id="frente" class="frente">
+            $  
+          </div>
+          <div id="verso" class="verso">
+            ☺
+          </div>
+        </div>
+          <p class="legenda">Moeda</p>
+      </section>
+    </div>
+   <br><br><br><br><br>
+    <section id="parte2" class="container-wrapper">
+      <div class="container">
+        <div class="universo" id="universo">
+          <div class="estrela1">
+            <div class="luz">
+            </div>
+          </div>
+          <div class="estrela2">
+            <div class="centro">
+            </div>
+          </div>
+          <p class="legenda-universo">Distância Anos-Luz<br><br><br><br><br><br></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div id="copyright">
+      Desenvolvido por<a class="link_git" href="https://github.com/ellen-caroline" target="_blank">@ellen-caroline</a>
+    </div>
+  </footer>
+
+  <script src="conversores.js"></script>
+</body>
