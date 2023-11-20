@@ -1,8 +1,118 @@
-<div class="container">
-    <h1 class="page-title">
-      Mentalista
-    </h1>
-    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
-  </div>
-    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Ilustra%C3%A7%C3%A3o-c%C3%A9rebro+1.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Número Oculto</title>
+
+  <!-- Cascading Style Sheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500&family=Montagu+Slab:opsz,wght@16..144,500&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,600;0,900;1,800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="imersao-logo" alt="">
+    </a>
+    <a href="index.html">
+      <img src="\assets\logo_numeroOculto.png" class="page-logo" alt="Número Oculto">
+    </a>
+    <nav>
+      <a class="link_projetos" href="https://codepen.io/ellen-caroline-the-looper/pen/MWLENRo">Conversor</a>
+      <a class="link_projetos" href="https://codepen.io/ellen-caroline-the-looper/pen/wvNPoqo">Número Oculto</a>
+      <a class="link_projetos" href="https://codepen.io/ellen-caroline-the-looper/pen/poGdeRJ">MyLoves</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="numeros">
+        <div class="quadro">
+          <h1 class="title-jogo">Número Oculto</h1><br>
+          <p id="texto">Olá! Seja muito bem-vindo<br><p id="nomeUsuario" class="nomeUsuario"></p><br>Clique no botão para jogar:</p>
+          <button onclick="jogo()" class="botao">Iniciar</button>
+        </div>
+        <span style="--i:11;">1</span>
+        <span style="--i:12;">3</span>
+        <span style="--i:24;">9</span>
+        <span style="--i:10;">4</span>
+        <span style="--i:14;">3</span>
+        <span style="--i:23;">6</span>
+        <span style="--i:18;">2</span>
+        <span style="--i:16;">5</span>
+        <span style="--i:19;">8</span>
+        <span style="--i:20;">7</span>
+        <span style="--i:22;">6</span>
+        <span style="--i:25;">6</span>
+        <span style="--i:18;">4</span>
+        <span style="--i:21;">9</span>
+        <span style="--i:15;">7</span>
+        <span style="--i:13;">2</span>
+        <span style="--i:26;">1</span>
+        <span style="--i:17;">3</span>
+        <span style="--i:13;">8</span>
+        <span style="--i:28;">9</span>
+        <span style="--i:11;">5</span>
+        <span style="--i:12;">5</span>
+        <span style="--i:24;">2</span>
+        <span style="--i:10;">3</span>
+        <span style="--i:14;">7</span>
+        <span style="--i:23;">4</span>
+        <span style="--i:18;">6</span>
+        <span style="--i:16;">1</span>
+        <span style="--i:19;">1</span>
+        <span style="--i:20;">7</span>
+        <span style="--i:22;">6</span>
+        <span style="--i:25;">3</span>
+        <span style="--i:18;">7</span>
+        <span style="--i:21;">9</span>
+        <span style="--i:15;">6</span>
+        <span style="--i:13;">5</span>
+        <span style="--i:26;">1</span>
+        <span style="--i:17;">2</span>
+        <span style="--i:13;">9</span>
+        <span style="--i:28;">5</span>
+        <span style="--i:11;">1</span>
+        <span style="--i:12;">3</span>
+        <span style="--i:24;">9</span>
+        <span style="--i:10;">4</span>
+        <span style="--i:14;">3</span>
+        <span style="--i:23;">6</span>
+        <span style="--i:18;">2</span>
+        <span style="--i:16;">5</span>
+        <span style="--i:11;">5</span>
+        <span style="--i:12;">5</span>
+        <span style="--i:24;">2</span>
+        <span style="--i:10;">3</span>
+        <span style="--i:14;">7</span>
+        <span style="--i:23;">4</span>
+        <span style="--i:18;">6</span>
+        <span style="--i:16;">1</span>
+        <span style="--i:19;">1</span>
+        <span style="--i:20;">7</span>
+        <span style="--i:22;">6</span>
+        <span style="--i:19;">8</span>
+        <span style="--i:20;">7</span>
+        <span style="--i:22;">6</span>
+        <span style="--i:25;">6</span>
+        <span style="--i:11;">1</span>
+        <span style="--i:12;">3</span>
+        <span style="--i:24;">9</span>
+        <span style="--i:10;">4</span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div id="copyright">
+      Desenvolvido por<a class="link_git" href="https://github.com/ellen-caroline" target="_blank">@ellen-caroline</a>
+    </div>
+  </footer>
+
+  <script src="jogo.js"></script>
+</body>
