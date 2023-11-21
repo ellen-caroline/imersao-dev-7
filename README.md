@@ -369,6 +369,36 @@ Nesta aula, a sintaxe e criação de funções em JavaScript foram exploradas, c
 
 ##
 
+### 🫧 Aula 5: Desbravando Objetos e Construindo uma Tabela de Classificação
+#### Introdução
+Na última aula da Imersão Dev, foi explorada a criação de uma tabela de classificação em programação, com a remoção do código estático do HTML, a criação de objetos em JavaScript para representar cada jogador e o desenvolvimento de funções para calcular pontos. Além disso, foi discutido como o GitHub Copilot pôde ser utilizado para otimizar o desenvolvimento de software.
+
+#### Desafios propostos!
+<details>
+  <summary>Criar a lógica para quando ocorrer um empate, ajustar automaticamente o placar de empate para os demais jogadores;</summary>
+
+</details>
+<details>
+  <summary>Validar se a pontuação está consistente, verificando se o número de vitórias, derrotas e empates faz sentido para cada jogador (por exemplo, não pode haver mais vitórias do que derrotas);</summary>
+
+</details>
+<details>
+  <summary>Adicionar a imagem de cada jogador;</summary>
+
+</details>
+<details>
+  <summary>Criar um botão para zerar todos os pontos;</summary>
+
+</details>
+<details>
+  <summary>Incluir um botão e campos de texto para adicionar novos jogadores, juntamente com seus respectivos dados;</summary>
+
+</details>
+<details>
+  <summary>Usar o jogo favorito como base para a pontuação na tabela de classificação;</summary>
+
+</details>
+
 ### 📂 Estrutura do Repositório:
 #### Aula 1 - Conversores:
 - `index.html`: Página principal para os conversores de moeda, unidade de temperatura e anos-luz.
